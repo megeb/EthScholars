@@ -1,0 +1,255 @@
+html,
+body {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  line-height: 1.5;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 4% 2%;
+}
+
+/* First Sections */
+.first-section {
+  background-image: url("../images/landingimg.jpg");
+  /* background: linear-gradient(to right, #212124 0%, #434360 100%); */
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.topLogo {
+  margin-bottom: 1%;
+}
+
+.toggleButton {
+  background-color: rgba(255, 255, 255, 1);
+  border-color: #fff;
+}
+
+/* Nav-bar */
+ul.navbar-nav li {
+  margin: 0 5%;
+  padding: 0;
+}
+
+.navbar-nav .nav-link {
+  padding: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 0;
+}
+
+.menuLogo {
+  color: #fff;
+}
+
+.menubar {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin: 3% 2%;
+  color: #fff;
+  text-align: left;
+  padding: 0;
+}
+
+a.menubar:hover,
+a.menubar:focus {
+  color: rgba(255, 223, 0, 1);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+.own {
+  font-family: 'Raleway', sans-serif;
+  color: rgba(255, 223, 0, 1);
+  letter-spacing: 0.5rem;
+  margin: 2% auto;
+}
+
+.companyBrand {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.firstLine {
+  font-family: 'Roboto', sans-serif;
+}
+
+.poweredBy {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.coLogo {
+  transition: 1s;
+  display: block;
+}
+
+.coLogo:hover {
+  transform: rotateZ(360deg);
+}
+
+.motto {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgba(255, 223, 0, 1);
+  letter-spacing: 0.5rem;
+  margin: 7% auto;
+}
+
+.btnInfo {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin: 5% 3%;
+}
+
+.btnInfo:hover {
+  color: rgba(255, 223, 0, 1);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.oneClick {
+  font-family: 'Playfair Display SC', Georgia, serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+/* Service */
+.service-section {
+  background-color: rgba(221, 215, 210, 1);
+  color: rgba(0, 0, 0, 1);
+  line-height: 1;
+}
+
+.serviceCard {
+  background-color: #00154f;
+  color: #f4af1b;
+  border: none;
+}
+
+.cardHeader {
+  padding: 0.5rem;
+}
+
+.cardBody {
+  padding: 0.5rem;
+}
+
+.serviceIcons {
+  color: #f2bc94;
+}
+
+.serviceMotto {
+  margin: 1% auto;
+  color: #00154f;
+}
+
+.allInOne {
+  color: #00154f;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 1%;
+}
+
+.iconTitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+}
+
+/* Testimonial */
+.testimonial-section {
+  background: linear-gradient(to right, #212124 0%, #434360 100%);
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+/* About Us */
+.aboutUs-section {
+  background-color: rgba(221, 215, 210, 1);
+  color: rgba(0, 0, 0, 1);
+}
+.aboutContainer {
+  padding: 3rem;
+}
+.aboutUsHeader {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {
+  vertical-align: middle;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 5px;
+}
+
+/* Destination */
+.destination-section {
+  background-color: rgba(221, 215, 210, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Contact */
+.contact-section {
+
+}
+
+
+/* Footer */
+.footer-section {
+  background-color: #272834;
+}
+
+.social-icon {
+  margin: 2rem 1rem;
+}
+
+/* Media query */
+@media (min-width: 768px) {
+  .nav {
+    float: left;
+  }
+}
+
+@media (min-width: 768px) {}
